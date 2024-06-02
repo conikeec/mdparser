@@ -3,8 +3,11 @@ The Markdown Parser is a command-line tool that parses Markdown files and extrac
 
 Open a terminal and navigate to the markdown-parser directory.
 
-Run ```go build ./cmd/parser to build the binary. This will generate an executable named parser in the current directory.```
-Run ```./parser <markdown_file> to parse a Markdown file. Replace <markdown_file> with the path to your Markdown file.```
+## Run
+
+```go build ./cmd/parser```
+
+```./parser <markdown_file>```
 
 For example, if you have a Markdown file named example.md in the examples directory, you can run:
 Copy code ```./parser examples/[filename].md```
