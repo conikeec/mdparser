@@ -17,7 +17,7 @@ Feel free to explore the provided examples in the examples directory to see how 
 ## Purpose 
 The parser serves to maintain a structural interchange between LLM invocations akin to message passing and processing. 
 LLMs are non-determinstic with their output format despite of being instructed.
-If this parser is being leveraged to strcuture the out of a LLM, ensure that the prompt is augmented with instructions to format the output
+If this parser is being leveraged to structure the output (via inference) of a LLM, ensure that the prompt is augmented with instructions to format the output
 
 ### LLM Prompt Template Example
 ```
