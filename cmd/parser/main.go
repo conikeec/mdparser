@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"os"
 
@@ -20,5 +21,6 @@ func main() {
 		os.Exit(1)
 	}
 
-	fmt.Printf("Parsed Markdown Document:\n%+v\n", document)
+	pprint, _ := json.MarshalIndent(document, "", "\t")
+	fmt.Println(string(pprint))
 }
