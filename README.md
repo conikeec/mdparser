@@ -5,12 +5,12 @@ Open a terminal and navigate to the markdown-parser directory.
 
 ## Run
 
-```go build ./cmd/parser```
+```go build -o ./bin ./cmd/parser```
 
-```./parser <markdown_file>```
+```./bin/parser <markdown_file>```
 
 For example, if you have a Markdown file named example.md in the examples directory, you can run:
-Copy code ```./parser examples/[filename].md```
+Copy code ```./bin/parser examples/[filename].md```
 The program will output the parsed Markdown document structure, displaying the sections, content, and code blocks.
 Feel free to explore the provided examples in the examples directory to see how the Markdown Parser handles different Markdown syntax and structures.
 
